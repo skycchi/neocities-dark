@@ -1,0 +1,274 @@
+/* ==UserStyle==
+@name         Neocities Dark
+@version      20241029.10.36
+@namespace    https://userstyles.world/user/adilene @ adilene.net
+@description  A dark theme for Neocities.
+@author       adilene @ adilene.net
+@license      MIT
+==/UserStyle== */
+
+@-moz-document url-prefix("https://neocities.org/") {
+::selection,
+body.interior div.page section.section table.plan-chart tbody tr th {
+    background-color: #5bc6ff;
+    color: white;
+}
+
+body,
+.news-item .comment {
+    color: white !important;
+}
+
+.header-Outro,
+.content.misc-page.columns .col-66,
+body.interior div.page div.container.news-feed div.content.misc-page.columns.right-col div.col-left div.col.col-33,
+body.interior div.page div.content.single-Col.misc-page,
+body.interior div.page div.browse-page ul.row.website-Gallery.content.int-Gall,
+body.interior div.page main.content-Base,
+.files.list-view .list .file:nth-child(2n),
+body.hp div.page main.content-Base div.section.previews,
+body.hp div.page main.content-Base footer.footer-Base div.footer-Intro,
+body.interior div.page div.container div.content.misc-page.columns.right-col.press div.col-left div.col.col-33,
+body.interior div.page section.section table.plan-chart tbody tr td,
+body.interior div.page section.section table.plan-chart tbody tr th.feature-column,
+body.interior div.page div.content.single-Col.misc-page.txt-Center article section div.tabbable div.tab-content div#supporter.tab-pane.active div#endSupporterConfirm.modal.hide.in form div.modal-body,
+body.interior div.page div.content.single-Col.misc-page.txt-Center article section div.tabbable div.tab-content div#supporter.tab-pane.active div#endSupporterConfirm.modal.hide.in form div.modal-footer,
+body.interior div.page div.container.site-profile div.content.misc-page.columns.right-col div.col-left div.col.col-33,
+.news-item .files,
+body.interior div.page header.header-Base nav.header-Nav.clearfix ul.h-Nav.constant-Nav li a:hover,
+body.interior div.page header.header-Base nav.header-Nav.clearfix ul.status-Nav li.dropdown a:hover,
+body.hp div.page header.header-Base nav.header-Nav.clearfix ul.h-Nav.constant-Nav li a:hover,
+body.hp div.page header.header-Base nav.header-Nav.clearfix ul.status-Nav li a:hover,
+body.interior div.page header.header-Base nav.header-Nav.clearfix ul.status-Nav li a:hover,
+body.interior div.page section.section.plans.welcome,
+body.interior div.page section.section,
+body.hp div.page header.header-Base section.header-Intro {
+    background: none !important;
+    background-color: #131313 !important;
+}
+
+.content.misc-page.columns .col-33,
+.content.misc-page.columns.right-col,
+.post-comment,
+.page,
+body.interior div.page header.header-Base nav.header-Nav.clearfix ul.status-Nav li.dropdown.open ul.dropdown-menu,
+body.interior div.page header.header-Base nav.header-Nav.clearfix,
+body.interior,
+body.interior div.page div.browse-page ul.row.website-Gallery.content.int-Gall li,
+body.interior div.page main.content-Base div.content.wide div#filesDisplay.files,
+body.hp div.page header.header-Base nav.header-Nav.clearfix,
+body.hp div.page main.content-Base section.section.features,
+body.hp div.page main.content-Base section.section.bottom-signup,
+body.hp div.page main.content-Base footer.footer-Base aside.footer-Outro,
+body.interior div.page main.content-Base div.content.wide div#filesDisplay.files div.header,
+body.interior div.page div.content.single-Col.misc-page.txt-Center article section div.tabbable ul.nav.nav-tabs li.active a,
+body.interior div.page div.content.single-Col.misc-page.txt-Center article section div.tabbable ul.nav.nav-tabs li a:hover,
+.popover,
+body.interior div.page div.header-Outro.with-site-image.dashboard div.row.content.wide div.col.col-50.signup-Area div.signup-Form fieldset.content,
+body.interior div.page div.header-Outro.with-site-image div.row.content.site-info-row div.col.col-50.signup-Area.site-display-preview-wrapper.large div.signup-Form.site-display-preview fieldset.content,
+body.interior div.page div.header-Outro.with-site-image div.row.content.site-info-row div.col.col-50.signup-Area.site-display-preview-wrapper.large div.signup-Form.site-display-preview {
+    background: none !important;
+    background-color: black !important;
+}
+
+a,
+.news-item .user,
+body.hp div.page header.header-Base div.header-Outro div.row.header-Content.content div.col.signup-Area form#createSiteForm.signup-Form fieldset.content div.siteCreateInputs label,
+.hp .header-Outro .intro-text,
+body.hp div.page main.content-Base div.section.previews div.row.content div.col.col-50.text h3,
+h2.delta,
+body.interior div.page section.section.plans.welcome h2,
+body.interior div.page section.section.plans.welcome h3.subtitle,
+body.interior div.page section.section.plans.welcome div.row div.col.col-50 h3,
+.news-item.comment div.title div.text a.you,
+body.interior div.page div.header-Outro.with-site-image div.row.content.site-info-row div.col.col-50.profile-info div.stats .stat,
+.interior .header-Outro .stats strong {
+    color: #5bc6ff !important;
+}
+
+a:hover,
+.news-item .user:hover,
+.news-item.comment div.title div.text a.you:hover {
+    color: #b5ecff !important;
+}
+
+.btn-Action,
+#tipButton,
+a.tag,
+a.tag:visited,
+body.interior div.page div.content.single-Col.misc-page.txt-Center article section div.tabbable div.tab-content div#supporter.tab-pane.active div#endSupporterConfirm.modal.hide.in form div.modal-header {
+    background: none !important;
+    background-color: #5bc6ff !important;
+    color: black !important;
+}
+
+.btn-Action:hover,
+#tipButton:hover,
+a.tag:hover,
+a.tag:visited:hover {
+    background: none !important;
+    background-color: #b5ecff !important;
+    color: black !important;
+}
+
+.header-Outro,
+body.interior div.page header.header-Base nav.header-Nav.clearfix {
+    border-bottom: 1px solid white;
+}
+
+.col.col-33,
+body.interior div.page div.browse-page ul.row.website-Gallery.content.int-Gall {
+    border: 1px solid white;
+    border-top: none;
+}
+
+body.interior div.page div.header-Outro.with-columns div.row.content div.col.col-66 {
+    border-right: 1px solid white;
+}
+
+body.interior div.page div.container.news-feed {
+    border-left: 1px solid white;
+}
+
+body.interior div.page header.header-Base {
+    border-bottom: 4px solid #5bc6ff !important;
+}
+
+body.interior footer.footer-Base aside.footer-Outro {
+    background: none !important;
+    background-color: black !important;
+    color: white !important;
+    border-top: 1px solid white;
+}
+
+body.interior div.page div.content.single-Col.misc-page {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+body.interior div.page header.header-Base nav.header-Nav.clearfix ul.status-Nav li.dropdown.open ul.dropdown-menu {
+    border: 1px solid white;
+    border-radius: 0;
+}
+
+pre,
+code {
+    border-left: 6px solid #5bc6ff !important;
+}
+
+pre code {
+    border-left: none !important;
+}
+
+body.interior div.page div.browse-page ul.row.website-Gallery.content.int-Gall li {
+    border: 10px solid black;
+    outline: 1px solid white;
+}
+
+body.interior div.page main.content-Base,
+body.hp div.page header.header-Base nav.header-Nav.clearfix {
+    border-bottom: 1px solid white;
+}
+
+body.interior div.page main.content-Base div.content.wide div#filesDisplay.files {
+    border: 1px solid white;
+}
+
+body.interior div.page main.content-Base div.content.wide div#filesDisplay.files div.list form#uploads.dropzone div.upload-Boundary.with-instruction div.file.filehover div.overlay {
+    background-color: rgb(19, 19, 19, 0.5);
+}
+
+.files.list-view .list .file > .overlay {
+    background-color: transparent !important;
+}
+
+body.hp div.page header.header-Base,
+body.interior div.page main.content-Base div.content.wide div#filesDisplay.files div.header div.btn-group button.btn.btn-default {
+    background-color: #5bc6ff;
+}
+
+body.hp div.page header.header-Base div.header-Outro div.row.header-Content.content div.col.signup-Area form#createSiteForm.signup-Form fieldset.content hr {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.header-Outro .signup-Form .input-Area {
+    background: none !important;
+    background-color: white !important;
+}
+
+body.hp div.page header.header-Base div.header-Outro div.row.header-Content.content div.col.signup-Area form#createSiteForm.signup-Form fieldset.content {
+    background: none !important;
+    background-color: black !important;
+    border: 1px solid white;
+    border-bottom: none;
+    border-radius: 0;
+}
+
+body.hp div.page main.content-Base div.section.featured-Websites {
+    background: none !important;
+    background-color: black !important;
+    border-top: none;
+    border-bottom: 1px solid white;
+}
+
+body.hp div.page main.content-Base div.section.previews div.row.content div.col.col-50.text p,
+p.tiny {
+    color: white;
+}
+
+body.hp div.page main.content-Base section.section.features,
+body.hp div.page main.content-Base footer.footer-Base aside.footer-Outro {
+    border-top: 1px solid white;
+}
+
+body.hp div.page main.content-Base section.section.bottom-signup,
+body.interior div.page div.content.txt-Center.single-Col.misc-page,
+body.interior div.page main.content-Base div.content.wide div#filesDisplay.files div.header {
+    border-bottom: 1px solid white;
+}
+
+body.hp div.page main.content-Base section.section.features div.col.col-100 div.row.stats div.col.col-33,
+body.hp div.page main.content-Base footer.footer-Base div.footer-Intro div.footer-Content div.row div.col.col-33,
+body.interior div.page section.section table.plan-chart tbody tr th.feature-column {
+    border: none;
+}
+
+body.hp div.page main.content-Base footer.footer-Base div.footer-Intro {
+    border-top: none;
+}
+
+body.interior div.page div.container div.content.misc-page.columns.right-col.press div.col-left div.col.col-66,
+body.interior div.page div.container.site-profile div.content.misc-page.columns.right-col div.col-left div.col.col-66 div.site-profile-padding {
+    border-left: 1px solid white;
+}
+
+body.interior div.page div.container.news-feed div.content.misc-page.columns.right-col div.col-left div.col.col-66 div.post-comment,
+body.interior div.page section.section table.plan-chart tbody tr th {
+    border: 1px solid white;
+}
+
+body.interior div.page div.content.single-Col.misc-page.txt-Center article section div.tabbable ul.nav.nav-tabs li a:hover {
+    border-bottom: none;
+}
+
+body.interior div.page div.content.single-Col.misc-page.txt-Center article section div.tabbable div.tab-content div#supporter.tab-pane.active div#endSupporterConfirm.modal.hide.in {
+    border: 1px solid white;
+    border-radius: 0;
+}
+
+body.interior div.page div.content.single-Col.misc-page.txt-Center article section div.tabbable div.tab-content div#supporter.tab-pane.active div#endSupporterConfirm.modal.hide.in form div.modal-header {
+    border-radius: 0;
+    border-bottom: 1px solid white;
+}
+
+body.interior div.page div.container.site-profile div.content.misc-page.columns.right-col div.col-left div.col.col-66 div.post-comment {
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    margin: 0;
+}
+
+.popover.bottom .arrow::after {
+    border-bottom-color: black;
+}
+}
