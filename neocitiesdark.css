@@ -31,8 +31,8 @@ body.hp div.page main.content-Base footer.footer-Base div.footer-Intro,
 body.interior div.page div.container div.content.misc-page.columns.right-col.press div.col-left div.col.col-33,
 body.interior div.page section.section table.plan-chart tbody tr td,
 body.interior div.page section.section table.plan-chart tbody tr th.feature-column,
-body.interior div.page div.content.single-Col.misc-page.txt-Center article section div.tabbable div.tab-content div#supporter.tab-pane.active div#endSupporterConfirm.modal.hide.in form div.modal-body,
-body.interior div.page div.content.single-Col.misc-page.txt-Center article section div.tabbable div.tab-content div#supporter.tab-pane.active div#endSupporterConfirm.modal.hide.in form div.modal-footer,
+.modal-body,
+.modal-footer,
 body.interior div.page div.container.site-profile div.content.misc-page.columns.right-col div.col-left div.col.col-33,
 .news-item .files,
 body.interior div.page header.header-Base nav.header-Nav.clearfix ul.h-Nav.constant-Nav li a:hover,
@@ -96,7 +96,7 @@ a:hover,
 #tipButton,
 a.tag,
 a.tag:visited,
-body.interior div.page div.content.single-Col.misc-page.txt-Center article section div.tabbable div.tab-content div#supporter.tab-pane.active div#endSupporterConfirm.modal.hide.in form div.modal-header {
+.modal-header {
     background: none !important;
     background-color: #5bc6ff !important;
     color: black !important;
@@ -252,12 +252,12 @@ body.interior div.page div.content.single-Col.misc-page.txt-Center article secti
     border-bottom: none;
 }
 
-body.interior div.page div.content.single-Col.misc-page.txt-Center article section div.tabbable div.tab-content div#supporter.tab-pane.active div#endSupporterConfirm.modal.hide.in {
+.modal.hide.in {
     border: 1px solid white;
     border-radius: 0;
 }
 
-body.interior div.page div.content.single-Col.misc-page.txt-Center article section div.tabbable div.tab-content div#supporter.tab-pane.active div#endSupporterConfirm.modal.hide.in form div.modal-header {
+.modal-header {
     border-radius: 0;
     border-bottom: 1px solid white;
 }
@@ -270,5 +270,10 @@ body.interior div.page div.container.site-profile div.content.misc-page.columns.
 
 .popover.bottom .arrow::after {
     border-bottom-color: black;
+}
+    
+.modal-body p{
+    margin-bottom:0;
+    padding-bottom:12px;
 }
 }
