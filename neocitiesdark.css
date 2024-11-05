@@ -8,9 +8,17 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://neocities.org/") {
+
+:root{
+    --bright: #5bc6ff;
+    --dim: #b5ecff;
+    --dark: #131313;
+    --darktranslucent: rgb(19, 19, 19, 0.5);
+}
+
 ::selection,
 body.interior div.page section.section table.plan-chart tbody tr th {
-    background-color: #5bc6ff;
+    background-color: var(--bright, #5bc6ff);
     color: white;
 }
 
@@ -44,7 +52,7 @@ body.interior div.page section.section.plans.welcome,
 body.interior div.page section.section,
 body.hp div.page header.header-Base section.header-Intro {
     background: none !important;
-    background-color: #131313 !important;
+    background-color: var(--dark, #131313) !important;
 }
 
 .content.misc-page.columns .col-33,
@@ -83,13 +91,13 @@ body.interior div.page section.section.plans.welcome div.row div.col.col-50 h3,
 .news-item.comment div.title div.text a.you,
 body.interior div.page div.header-Outro.with-site-image div.row.content.site-info-row div.col.col-50.profile-info div.stats .stat,
 .interior .header-Outro .stats strong {
-    color: #5bc6ff !important;
+    color: var(--bright, #5bc6ff) !important;
 }
 
 a:hover,
 .news-item .user:hover,
 .news-item.comment div.title div.text a.you:hover {
-    color: #b5ecff !important;
+    color: var(--dim, #b5ecff) !important;
 }
 
 .btn-Action,
@@ -98,7 +106,7 @@ a.tag,
 a.tag:visited,
 .modal-header {
     background: none !important;
-    background-color: #5bc6ff !important;
+    background-color: var(--bright, #5bc6ff) !important;
     color: black !important;
 }
 
@@ -107,7 +115,7 @@ a.tag:visited,
 a.tag:hover,
 a.tag:visited:hover {
     background: none !important;
-    background-color: #b5ecff !important;
+    background-color: var(--dim, #b5ecff) !important;
     color: black !important;
 }
 
@@ -131,7 +139,7 @@ body.interior div.page div.container.news-feed {
 }
 
 body.interior div.page header.header-Base {
-    border-bottom: 4px solid #5bc6ff !important;
+    border-bottom: 4px solid var(--bright, #5bc6ff) !important;
 }
 
 body.interior footer.footer-Base aside.footer-Outro {
@@ -153,7 +161,7 @@ body.interior div.page header.header-Base nav.header-Nav.clearfix ul.status-Nav 
 
 pre,
 code {
-    border-left: 6px solid #5bc6ff !important;
+    border-left: 6px solid var(--bright, #5bc6ff) !important;
 }
 
 pre code {
@@ -175,7 +183,7 @@ body.interior div.page main.content-Base div.content.wide div#filesDisplay.files
 }
 
 body.interior div.page main.content-Base div.content.wide div#filesDisplay.files div.list form#uploads.dropzone div.upload-Boundary.with-instruction div.file.filehover div.overlay {
-    background-color: rgb(19, 19, 19, 0.5);
+    background-color: var(--darktranslucent, rgb(19, 19, 19, 0.5));
 }
 
 .files.list-view .list .file > .overlay {
@@ -184,7 +192,7 @@ body.interior div.page main.content-Base div.content.wide div#filesDisplay.files
 
 body.hp div.page header.header-Base,
 body.interior div.page main.content-Base div.content.wide div#filesDisplay.files div.header div.btn-group button.btn.btn-default {
-    background-color: #5bc6ff;
+    background-color: var(--bright, #5bc6ff);
 }
 
 body.hp div.page header.header-Base div.header-Outro div.row.header-Content.content div.col.signup-Area form#createSiteForm.signup-Form fieldset.content hr {
